@@ -3,8 +3,8 @@ session_start();
 include_once "config.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    if (isset($_POST['Consult_ID'])) {
-        $consultID = $_POST['Consult_ID'];
+    if (isset($_POST['Consult ID'])) {
+        $consultID = $_POST['Consult ID'];
 
         $stmt = $conn->prepare("DELETE FROM consult WHERE `Consult ID` = ?");
         $stmt->bind_param("s", $consultID);
