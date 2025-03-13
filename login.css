@@ -1,0 +1,66 @@
+/* login button  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+}
+
+.login-btn {
+    background-color: #D70000;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #910707;
+}
+
+/* navigation bar top of screen */
+.nav img {
+    padding: 20px;
+    width: 70px;
+}
+
+.navbar {
+    background-color: #383e3f;
+}
+
+.navbar .nav-link {
+    color: white !important;  
+}
+
+.nav-link:hover {
+    color: grey !important;
+}
+
+/* login */
+form {
+  background-color: #fff;
+  max-width: 40%;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #D70000;
+  color: #fff;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #910707;
+}
