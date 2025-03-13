@@ -143,12 +143,10 @@ function fetch_data($db, $tableName, $columns)
 
                                                     <!-- more details button -->
                                                     <td><button type="button" class="btn btn-primary" 
-                                                    data-bs-toggle="modal" data-bs-target="#expandModal_
-                                                    <?php echo $data['Consult ID']; ?>"> More Details </button></td>
+                                                    data-bs-toggle="modal" data-bs-target="#expandModal_<?php echo $data['Consult ID']; ?>"> More Details </button></td>
 
                                                     <!-- modal popup for more details button -->
-                                                    <div class="modal fade" id="expandModal_
-                                                    <?php echo $data['Consult ID']; ?>"tabindex="-1" 
+                                                    <div class="modal fade" id="expandModal_<?php echo $data['Consult ID']; ?>"tabindex="-1" 
                                                     aria-labelledby="expandModalLabel" aria-hidden="true">
                                                         <div class="modal-dialog">
                                                             <div class="modal-content">
@@ -390,8 +388,7 @@ function fetch_data($db, $tableName, $columns)
 
                                             <!-- more details button -->
                                             <td><button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                                    data-bs-target="#expandModal_
-                                                    <?php echo $data['Consult ID']; ?>"> More Details </button></td>
+                                                    data-bs-target="#expandModal_<?php echo $data['Consult ID']; ?>"> More Details </button></td>
 
                                             <!-- modal popup for more details button -->
                                             <div class="modal fade" id="expandModal_<?php echo $data['Consult ID']; ?>"
